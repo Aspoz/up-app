@@ -8,7 +8,7 @@
 	<title>Up App - Waking up with a smile</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/skeleton.css">
@@ -18,11 +18,6 @@
   <script src="js/jquery.js"></script>
   <script src="js/spin.js"></script>
   <script src="js/script.js"></script>
-
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
 
@@ -37,9 +32,9 @@
   	<div class="seven columns fullheight">
   	  <div id="logowrapper">
   	    <h1 id="logo">Up App</h1>
-  	    <form id="subscribe">
-  	      <div id="message">Success</div>
-          <input id="email" name="bar" type="text" placeholder="Email me when it's available" />
+  	    <form id="subscribe" action="https://formspree.io/sandergarden@gmail.com" method="post">
+          <input id="email" name="email" type="text" placeholder="Email me when it's available" />
+					<input type="hidden" name="_next" value="//up-app.co/thanks.html" />
           <span id="submitwrapper">
             <input id="submit" class="bg_0" type="submit" value="Go" />
           </span>
