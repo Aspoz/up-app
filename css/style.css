@@ -40,7 +40,7 @@ body {
 
 #logowrapper {
     position: relative;
-    height: 320px
+    height: 440px
 }
 
 #logo {
@@ -244,4 +244,11 @@ input:focus {
   text-align:center;
   margin-top: 4rem;
   line-height: 1;
+}
+.introtext {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+  line-height: 1.4;
 }
