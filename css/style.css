@@ -201,7 +201,7 @@ input:focus {
 }
 
 .footer {
-    background: #e84538;
+    background: #ff5000;
     bottom: 0;
     color: #fff;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -220,24 +220,15 @@ input:focus {
 }
 
 .footer.bg_0,#submit.bg_0 {
-    background: #e84538
+    background: #ff5000
 }
 
 .footer.bg_1,#submit.bg_1 {
-    background: #e84538
+    background: #ff5000
 }
 
 .footer.bg_2,#submit.bg_2 {
-    background: #e84538
-}
-
-.footer a {
-    color: #fff;
-    text-decoration: none
-}
-
-.footer a:hover {
-    color: #ccc
+    background: #ff5000
 }
 
 #thanks {
