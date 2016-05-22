@@ -151,12 +151,13 @@ input:focus {
 }
 
 #screenwrapper {
-    height: 512px;
-    left: 36px;
-    overflow: hidden;
-    position: absolute;
-    top: 115px;
-    width: 288px
+  height: 508px;
+  left: 38px;
+  overflow: hidden;
+  position: absolute;
+  top: 115px;
+  width: 286px;
+  border-radius: 10px;
 }
 
 .screen {
@@ -169,33 +170,34 @@ input:focus {
     -moz-transition: background-image .3s;
     -o-transition: background-image .3s;
     transition: background-image .3s;
-    width: 288px
+    width: 288px;
+    background-size: cover;
 }
 
 #screen_0 {
-    background-image: url('../images/screen_0.png')
+    background-image: url('../images/screen_0.jpg')
 }
 
 #screen_0:hover,#screen_0.hover {
-    background-image: url('../images/hover_0.png')
+    background-image: url('../images/screen_0.jpg')
 }
 
 #screen_1 {
-    background-image: url('../images/screen_1.png');
+    background-image: url('../images/screen_1.jpg');
     left: 288px
 }
 
 #screen_1:hover,#screen_1.hover {
-    background-image: url('../images/hover_1.png')
+    background-image: url('../images/hover_1.jpg')
 }
 
 #screen_2 {
-    background-image: url('../images/screen_2.png');
+    background-image: url('../images/screen_2.jpg');
     left: 576px
 }
 
 #screen_2:hover,#screen_2.hover {
-    background-image: url('../images/hover_2.png')
+    background-image: url('../images/hover_2.jpg')
 }
 
 .footer {

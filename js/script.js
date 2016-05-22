@@ -32,7 +32,7 @@ $(function() {
     });
     var e = setInterval(function() {
         b()
-    }, 10000);
+    }, 7500);
     function b() {
         a = ((a == 2) ? 0 : a + 1);
         nextScreen = ((a == 2) ? 0 : a + 1);
