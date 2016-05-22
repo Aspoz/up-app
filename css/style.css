@@ -107,7 +107,8 @@ input:focus {
     -moz-transition: background-color 1s;
     -o-transition: background-color 1s;
     transition: background-color 1s;
-    width: 100%
+    width: 100%;
+    -webkit-appearance: none;
 }
 
 #submit:active {
